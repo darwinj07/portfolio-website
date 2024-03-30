@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bullet-icon {
+    font-size: 0.5rem; /* Adjust the size as needed */
+    margin-top: 5px;
+  }
