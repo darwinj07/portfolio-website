@@ -11,10 +11,10 @@ const projects = [
       `Schedule and task management application for Android equipped with AI Manager. 
       Capable of intelligently managing/retrieving/summarizing schedules through voice/text commands. 
       Prompt engineered GPT-4 to generate SQL queries for vast scope of natural language commands with consistency and
-      minimized latency.`,
+      minimized latency. Find out how I implemented AI Manager`,
     tech: "Kotlin, Android SDK, GPT-4, Express + Node.js, AWS, SQLite, Retrofit",
     image: "/calendy.png",
-    github: "https://github.com/snuhcs-course/SNU-swpp-team-10/wiki/Manager-Implementation-Details",
+    github: "https://github.com/snuhcs-course/SNU-swpp-team-10",
     link: "none",
   },
   {
@@ -67,6 +67,17 @@ const ProjectsSection = () => {
                     <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                       {project.description}
+                      {project.name === "Calendy" && (
+                        <>
+                          {" "}
+                          <span className={`tracking-wide text-sky-400 font-bold hover:underline`}>
+                            <Link href="https://github.com/snuhcs-course/SNU-swpp-team-10/wiki/Manager-Implementation-Details" target="_blank">
+                              here
+                            </Link>
+                          </span>
+                          {"!"}
+                        </>
+                      )}
                     </p>
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                     <span className="font-bold">Tech: </span> 
