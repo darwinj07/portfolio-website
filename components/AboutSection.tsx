@@ -48,7 +48,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I&apos;m also intreseted in custom keyboards and League of Legends.
+              I&apos;m also interested in body building, custom keyboards and League of Legends.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
