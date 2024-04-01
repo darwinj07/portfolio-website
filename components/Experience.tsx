@@ -18,8 +18,8 @@ const backgroundInfo = [
             "Architected API, database schema and storage structure to preserve hierarchy of entities and manage versions while minimizing external API calls.",
             "Leveraged AWS by using Pulumi for IaC(Infrastructure as Code) to comply with GDPR, deploy across multiple regions and granularize jobs for state persistence."
         ],
-        image_1: "/deputy_screenshot_1.png",
-        image_2: "/deputy_screenshot_2.png",
+        image_1: "/cistern_screenshot_1.png",
+        image_2: "/cistern_screenshot_2.png",
 
         // link:
     },

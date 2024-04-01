@@ -42,7 +42,7 @@ const AboutSection = () => {
             raised in the U.S. and moved to Korea in high school. 
             I am currently in Las Vegas working on
             {" "}
-              <span className="font-bold">{"Deputy"}</span>, a Notion backup service preparing for launch. 
+              <span className="font-bold">{"Cistern"}</span>, a Notion backup service preparing for launch. 
             I have experiences that span from ML/DL, LLMs to building and deploying multiple mobile & web apps from the ground up. 
             I&apos;m a fast learner and love diving into new challenges, always looking for opportunities to learn more. {" "}
             </p>
