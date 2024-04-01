@@ -12,7 +12,7 @@ import { useState, useEffect } from "react";
 const backgroundInfo = [
     {
         position: "Backend Engineer",
-        name: "Deputy",
+        name: "Cistern",
         duration: "Dec 2023 - Present",
         description: [
             "Architected API, database schema and storage structure to preserve entity relationships and manage versions.",
