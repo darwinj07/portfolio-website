@@ -15,8 +15,9 @@ const backgroundInfo = [
         name: "Deputy",
         duration: "Dec 2023 - Present",
         description: [
-            "Architected API, database schema and storage structure to preserve hierarchy of entities and manage versions while minimizing external API calls.",
-            "Leveraged AWS by using Pulumi for IaC(Infrastructure as Code) to comply with GDPR, deploy across multiple regions and granularize jobs for state persistence."
+            "Architected API, database schema and storage structure to preserve entity relationships and manage versions.",
+            "Optimized backup/restore process by modularizing into asynchronous jobs while minimizing external API calls.",
+            "Leveraged AWS by using Pulumi for IaC(Infrastructure as Code) to comply with GDPR, deploy across multiple regions and persist job state."
         ],
         image_1: "/cistern_screenshot_1.png",
         image_2: "/cistern_screenshot_2.png",
