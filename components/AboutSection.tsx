@@ -5,20 +5,18 @@ import Link from "next/link"
 
 const skills = [
   { skill: "Python" },
-  { skill: "Django" },
   { skill: "Java" },
-  { skill: "Spring Boot" },
   { skill: "C/C++" },
+  { skill: "Spring" },
+  { skill: "Django" },
+  { skill: "AWS" },
   { skill: "Kotlin"},
   { skill: "PostgreSQL" },
-  { skill: "Node.js" },
-  { skill: "Express.js" },
   { skill: "Node.js" },
   { skill: "Express.js" },
   { skill: "Next.js" },
   { skill: "Android SDK" },
   { skill: "Docker" },
-  { skill: "AWS" },
 ]
 
 /**
