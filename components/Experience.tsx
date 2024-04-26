@@ -21,6 +21,7 @@ const backgroundInfo = [
         ],
         image_1: "/cistern_screenshot_1.png",
         image_2: "/cistern_screenshot_2.png",
+        video_1: "/cistern_demo.mp4"
 
         // link:
     },

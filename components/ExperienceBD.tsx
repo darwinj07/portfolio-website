@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Video from "next-video"
 import { FaCircle } from 'react-icons/fa';
 import { useEffect, useState } from "react";
 import Link from "next/link";
@@ -37,6 +38,14 @@ const ExperienceBD = ({ currExp }: any) => {
               </div>
             ))}
           </ul>
+          <div className="md:w-full mb-4">
+            <Video
+              src={currExp.video_1}
+              width={1000}
+              height={1000}
+              className="rounded-xl shadow-xl hover:opacity-70"
+            />
+          </div>
           <div className=" md:w-full mb-4">   
             <Link href={currExp.image_1} passHref target="_blank">
                 <Image
@@ -54,7 +63,7 @@ const ExperienceBD = ({ currExp }: any) => {
                   src={currExp.image_2}
                   alt=""
                   width={1000}
-                  height={1000}
+                  height={2000}
                   className="rounded-xl shadow-xl hover:opacity-70"
                 />
             </Link>
