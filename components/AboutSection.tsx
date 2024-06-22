@@ -36,8 +36,8 @@ const AboutSection = () => {
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2 ">
             <p>
-            Hi, I&apos;m Darwin. I'm currently working at {" "}
-            <span className="font-bold">{"Moloco"}</span> as a SWE Intern in the Seattle office. I'm studying CS at Seoul National University. My main interests are backend, infrastructure and software engineering in general. I'm a fast learner and love diving into new challenges, always looking for opportunities to learn more. {" "}
+            Hi, I&apos;m Darwin. I&apos;m currently working at {" "}
+            <span className="font-bold">{"Moloco"}</span> as a SWE Intern in the Seattle office. I&apos;m studying CS at Seoul National University. My main interests are backend, infrastructure and software engineering in general. I&apos;m a fast learner and love diving into new challenges, always looking for opportunities to learn more. {" "}
             </p>
             <br />
             <p>
