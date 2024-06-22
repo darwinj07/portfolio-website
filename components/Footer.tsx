@@ -25,7 +25,7 @@ const Footer = () => {
           </a>
           {/* Linkedin */}
           <a
-            href="https://www.linkedin.com/in/darwin-jung-79b059229/"
+            href="https://www.linkedin.com/in/darwin-jung/"
             rel="noreferrer"
             target="_blank"
           >
