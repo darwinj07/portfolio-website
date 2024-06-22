@@ -13,7 +13,7 @@ const backgroundInfo = [
     {
         position: "Backend Engineer",
         name: "Cistern",
-        duration: "Dec 2023 - Present",
+        duration: "Dec 2023 - May 2024",
         description: [
             "Architected API, database schema and storage structure to preserve entity relationships and manage versions.",
             "Optimized backup/restore process by modularizing into asynchronous jobs while minimizing external API calls.",
@@ -24,6 +24,16 @@ const backgroundInfo = [
         video_1: "/cistern_demo.mp4"
 
         // link:
+    },    
+    {
+        position: "Software Engineer Intern",
+        name: "Moloco",
+        duration: "Jun 2024 - September 2024",
+        description: [
+            "ExpLab, DSP Cloud Team",
+        ]
+
+        // link:
     },
 ]
 
@@ -31,6 +41,7 @@ const backgroundInfo = [
 const Experience = () => {
 
     const [currExp, setCurrExp] = useState(backgroundInfo[0]);
+    const [molocoExp, _] = useState(backgroundInfo[1]);
 
     // /**
     //  * onClick function that handles setting the new current experience
@@ -52,6 +63,12 @@ const Experience = () => {
                 Experience
             <hr className="w-6 h-1 mx-auto my-4 bg-sky-400 border-0 rounded"></hr>
             </h1>
+
+
+            <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
+                     <ExperienceBD currExp={molocoExp}/>
+                    </div>
+                    
                     <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
                     {/* <ul className="md:w-36 flex flex-col">
                     {backgroundInfo.map((exp, indx) => {
@@ -73,7 +90,6 @@ const Experience = () => {
                      <ExperienceBD currExp={currExp}/>
                     </div>
 
-            
                     
         </section>
     )
