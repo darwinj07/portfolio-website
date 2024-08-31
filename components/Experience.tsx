@@ -30,8 +30,11 @@ const backgroundInfo = [
         name: "Moloco",
         duration: "Jun 2024 - September 2024",
         description: [
-            "ExpLab, DSP Cloud Team",
-        ]
+            "Tech used: Go, gRPC, TypeScript, React, MySQL, GCP, Kubernetes",
+            "Built an in-house review system for configuring experiments of ad/model testing in production. Designed and implemented from scratch, from DB schema and API design to frontend.",
+            "Provided compatibility with multiple experiment modules for an integrated solution to replace external service reliant procedures.",
+            "Wrote testable code and applied design patterns adhering to language-specific paradigms. Introduced a new module that works with all while making minimal changes to existing ones."       ,
+        ],
 
         // link:
     },
